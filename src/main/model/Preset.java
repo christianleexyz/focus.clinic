@@ -3,7 +3,7 @@ package model;
 import org.json.JSONObject;
 import persistence.Writable;
 
-// Represents information related to users setting custom presets
+// Represents information related to users setting custom presets.
 public class Preset implements Writable {
 
     // Fields
@@ -22,11 +22,11 @@ public class Preset implements Writable {
         this.restTime = restTime;
     }
 
-    // REQUIRES: presetName is not null
+    // REQUIRES: name is not null
     // MODIFIES: this
-    // EFFECTS: sets presetName to this.name
-    public String setPresetName(String presetName) {
-        return this.name = presetName;
+    // EFFECTS: sets name to this.name
+    public String setPresetName(String name) {
+        return this.name = name;
     }
 
     // REQUIRES: focusTime is a long number in type String && >= 1

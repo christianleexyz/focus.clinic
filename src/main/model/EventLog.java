@@ -18,14 +18,14 @@ public class EventLog implements Iterable<Event> {
 
     // Fields
     private static EventLog theLog;
-    private Collection<Event> events;
+    private final Collection<Event> events;
 
     /**
      * Prevent external construction.
      * (Singleton Design Pattern).
      */
     private EventLog() {
-        events = new ArrayList<Event>();
+        events = new ArrayList<>();
     }
 
     /**
@@ -49,14 +49,6 @@ public class EventLog implements Iterable<Event> {
      */
     public void logEvent(Event e) {
         events.add(e);
-    }
-
-    /**
-     * Clears the event log and logs the event.
-     */
-    public void clear() {
-        events.clear();
-        logEvent(new Event("Event log cleared."));
     }
 
     @Override
