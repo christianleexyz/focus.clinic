@@ -1,0 +1,14 @@
+{"presetList": [
+  {
+    "restTime": 30,
+    "meditationTime": 10,
+    "focusTime": 50,
+    "name": "Default"
+  },
+  {
+    "restTime": 2,
+    "meditationTime": 1,
+    "focusTime": 1,
+    "name": "Test"
+  }
+]}

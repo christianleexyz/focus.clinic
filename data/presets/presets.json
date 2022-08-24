@@ -1,0 +1,26 @@
+{"presetList": [
+    {
+        "restTime": 1,
+        "meditationTime": 1,
+        "focusTime": 1,
+        "name": "Test Preset 1"
+    },
+    {
+        "restTime": 3,
+        "meditationTime": 2,
+        "focusTime": 1,
+        "name": "Test Preset 2"
+    },
+    {
+        "restTime": 1,
+        "meditationTime": 1,
+        "focusTime": 0,
+        "name": "Test Preset 3"
+    },
+    {
+        "restTime": 0,
+        "meditationTime": 0,
+        "focusTime": 1,
+        "name": "Test Preset 4"
+    }
+]}
